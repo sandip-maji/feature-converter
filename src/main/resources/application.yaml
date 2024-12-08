@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/USER_DB?authSource=admin
+      database: USER_DB
+      authentication-database: admin
